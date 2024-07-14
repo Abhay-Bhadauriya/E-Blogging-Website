@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <img src="blog.jpg" alt="" width="750px" height="300px" style="padding-bottom: 20px;">
+        <h1 id="post-title"></h1>
+        <p id="post-content"></p>
+        <br>
+        <br>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><strong>Author:</strong> <span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" id="post-author"></span></p>
+    </div>
+    <!-- Comment Form -->
+<form id="commentForm">
+    <input type="text" id="commentAuthor" placeholder="Author" required>
+    <textarea id="commentContent" placeholder="Write your comment here..." required></textarea>
+    <button type="submit">Add Comment</button>
+</form>
+
+<!-- Comments Section -->
+<div id="commentsSection">
+    <h2>Comments</h2>
+    <div id="commentsList"></div>
+</div>
+    <button id="darkModeToggle" class="dark-mode-toggle" >🌙</button>
+    <script src="post.js"></script>
+</div>
+</body>
+</html>
+
+
